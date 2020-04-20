@@ -46,13 +46,3 @@ Cf. [https://www.plctalk.net/qanda/showthread.php?t=124552](https://www.plctalk.
     =======================
     There is adequate physical space between boxes, so there is exactly 1 rising edge per box at photoeyes, both at PE1, and at PE2
     No boxes are added or subtracted between PE1 and PE2, nor coffee cups blocking either PE
-
-    Initialization
-    =========
-    Set diverted state to 0
-    - Better alternative would be detect diverter state
-    Set FIFO and index to zero
-    - Better alternative would be operator input of TRACKED_BOX_COUNT before starting conveyor
-      - Could also be used for resynchronization
-      - Could also set default reject/divert for any boxes past PE1 rising edge
-     
